@@ -4,7 +4,8 @@
  */
 import * as tslib_1 from "tslib";
 import { Injectable } from '@angular/core';
-import { Observable, Subject, of } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
+import { of } from 'rxjs/observable/of';
 import { concatAll } from 'rxjs/operators';
 import { ScriptStore } from './script.store';
 var ScriptLoaderService = /** @class */ (function () {

@@ -5,12 +5,12 @@
 ## How to use
 ### step-1
 
-#### 安装`tokenkit/ngx-neditor`
+#### 安装`@notadd/ngx-neditor`
 + `npm install @notadd/ngx-neditor` 
  
 #### 安装依赖
 + `mkdir -p ./src/assets/node_modules`
-+ `npm install --prefix ./src/assets neditor`
++ `npm install --prefix ./src/assets @notadd/neditor`
 > ⚠ neditor需在assets/node_modules下安装
 
 #### step-2

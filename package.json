@@ -1,44 +1,15 @@
 {
-  "_from": "@notadd/ngx-neditor@^1.0.2",
-  "_id": "@notadd/ngx-neditor@1.0.2",
-  "_inBundle": false,
-  "_integrity": "sha512-HuURAloS9n+8171yH3QnhwTXzoGS5vE+Qb4loswwbJ0b8PG7Npvs7SV+eKQMq0AThaLoVwzO0lXIf3p+W0nlqA==",
-  "_location": "/@notadd/ngx-neditor",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "@notadd/ngx-neditor@^1.0.2",
-    "name": "@notadd/ngx-neditor",
-    "escapedName": "@notadd%2fngx-neditor",
-    "scope": "@notadd",
-    "rawSpec": "^1.0.2",
-    "saveSpec": null,
-    "fetchSpec": "^1.0.2"
+  "name": "@notadd/ngx-neditor",
+  "version": "1.0.2",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "@notadd/neditor": "^2.1.0"
   },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/@notadd/ngx-neditor/-/ngx-neditor-1.0.2.tgz",
-  "_shasum": "4a644b41814e7511a7c85471ceef06d0b6a0c953",
-  "_spec": "@notadd/ngx-neditor@^1.0.2",
-  "_where": "/Users/wangyu/project/cupper-admin",
-  "bugs": {
-    "url": "https://github.com/notadd/ngx-neditor/issues"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notadd/ngx-neditor.git"
   },
-  "bundleDependencies": false,
-  "dependencies": {
-    "tslib": "^1.9.0"
-  },
-  "deprecated": false,
-  "description": "基于[@notadd/neditor](https://github.com/notadd/neditor)，更现代化的富文本编辑器angular组件",
-  "es2015": "fesm2015/notadd-ngx-neditor.js",
-  "esm2015": "esm2015/notadd-ngx-neditor.js",
-  "esm5": "esm5/notadd-ngx-neditor.js",
-  "fesm2015": "fesm2015/notadd-ngx-neditor.js",
-  "fesm5": "fesm5/notadd-ngx-neditor.js",
-  "homepage": "https://github.com/notadd/ngx-neditor#readme",
   "keywords": [
     "angular2",
     "angular4",
@@ -50,20 +21,21 @@
     "angular"
   ],
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notadd/ngx-neditor/issues"
+  },
+  "homepage": "https://github.com/notadd/ngx-neditor#readme",
   "main": "bundles/notadd-ngx-neditor.umd.js",
-  "metadata": "notadd-ngx-neditor.metadata.json",
   "module": "fesm5/notadd-ngx-neditor.js",
-  "name": "@notadd/ngx-neditor",
-  "peerDependencies": {
-    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
-    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
-    "@notadd/neditor": "^2.1.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/notadd/ngx-neditor.git"
-  },
-  "sideEffects": false,
+  "es2015": "fesm2015/notadd-ngx-neditor.js",
+  "esm5": "esm5/notadd-ngx-neditor.js",
+  "esm2015": "esm2015/notadd-ngx-neditor.js",
+  "fesm5": "fesm5/notadd-ngx-neditor.js",
+  "fesm2015": "fesm2015/notadd-ngx-neditor.js",
   "typings": "notadd-ngx-neditor.d.ts",
-  "version": "1.0.2"
+  "metadata": "notadd-ngx-neditor.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
 }

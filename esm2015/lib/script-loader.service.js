@@ -3,7 +3,8 @@
  * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 import { Injectable } from '@angular/core';
-import { Observable, Subject, of } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
+import { of } from 'rxjs/observable/of';
 import { concatAll } from 'rxjs/operators';
 import { ScriptStore } from './script.store';
 export class ScriptLoaderService {

@@ -1,5 +1,6 @@
 import { Injectable, Component, Input, forwardRef, ElementRef, EventEmitter, Output, ChangeDetectionStrategy, ChangeDetectorRef, NgZone, NgModule } from '@angular/core';
-import { Observable, Subject, of } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
+import { of } from 'rxjs/observable/of';
 import { concatAll, takeUntil } from 'rxjs/operators';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 import { CommonModule } from '@angular/common';
@@ -10,10 +11,10 @@ import { CommonModule } from '@angular/common';
  */
 /** @type {?} */
 const ScriptStore = [
-    { name: 'config', src: require('../../neditor/neditor.config.js'), loaded: false },
-    { name: 'neditor', src: require('../../neditor/neditor.all.min.js'), loaded: false },
-    { name: 'jquery', src: require('../../neditor/third-party/jquery-1.10.2.min.js'), loaded: false },
-    { name: 'service', src: require('../../neditor/neditor.service.js'), loaded: false },
+    { name: 'config', src: './assets/node_modules/@notadd/neditor/neditor.config.js', loaded: false },
+    { name: 'neditor', src: './assets/node_modules/@notadd/neditor/neditor.all.min.js', loaded: false },
+    { name: 'jquery', src: './assets/node_modules/@notadd/neditor/third-party/jquery-1.10.2.min.js', loaded: false },
+    { name: 'service', src: './assets/node_modules/@notadd/neditor/neditor.service.js', loaded: false },
 ];
 
 /**
@@ -95,7 +96,7 @@ class NeditorConfig {
          * Ueditor [前端配置项](http://fex.baidu.com/ueditor/#start-config)
          */
         this.options = {
-            // UEDITOR_HOME_URL: './assets/node_modules/@notadd/neditor/'
+            UEDITOR_HOME_URL: './assets/node_modules/@notadd/neditor/'
         };
     }
 }
